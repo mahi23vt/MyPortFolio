@@ -1,40 +1,89 @@
-h1{
-    background-color: aqua;
-    font-size: 5rem;
-    text-align: center;
+@media(min-width: 1600px) {
+    h1{
+        background-color: aqua;
+        font-size: 5rem;
+        text-align: center;
+    }
+    #about-me{
+        display: flex;
+        gap: 100px;
+    }
+    #profile-image{
+        float: left;
+        width: 350px;
+        height: 350px;
+    }
+    .card-view{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 350px;
+        height: 150px;
+        border: 5px solid black;
+        border-radius: 50px;
+        background-color: rgb(244, 152, 92);
+    }
+    .details-bar{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    p{
+        font-size: 3rem;
+    }
+    ul{
+        font-size: 3rem;
+    }
+    span{
+        font-size: 4rem;
+        font-weight: bold;
+    }
 }
-#about-me{
-    display: flex;
-    gap: 100px;
-}
-#profile-image{
-    float: left;
-    width: 350px;
-    height: 350px;
-}
-.card-view{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    width: 350px;
-    height: 150px;
-    border: 5px solid black;
-    border-radius: 50px;
-    background-color: rgb(244, 152, 92);
-}
-.details-bar{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-p{
-    font-size: 3rem;
-}
-ul{
-    font-size: 3rem;
-}
-span{
-    font-size: 4rem;
-    font-weight: bold;
+
+@media(max-width: 1599px){
+    h1{
+        background-color: aqua;
+        font-size: 3rem;
+        text-align: center;
+    }
+    #about-me{
+        display: flex;
+        gap: 50px;
+    }
+    #profile-image{
+        float: left;
+        width: 350px;
+        height: 350px;
+    }
+    .card-view{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 350px;
+        height: 150px;
+        border: 5px solid black;
+        border-radius: 50px;
+        background-color: rgb(244, 152, 92);
+    }
+    .details-bar{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    p{
+        font-size: .5rem;
+    }
+    ul{
+        font-size: .5rem;
+    }
+    span{
+        
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .date{
+        background-color: rgb(236, 164, 87);
+    }
 }
