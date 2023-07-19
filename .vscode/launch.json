@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "msedge",
+            "name": "http://127.0.0.1:3000/Daily%20Learning/daily-learning.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/Daily%20Learning/daily-learning.html"
+        },
+        {
+            "type": "msedge",
+            "name": "http://127.0.0.1:3000/index.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/index.html"
+        }
+    ]
+}
