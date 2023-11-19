@@ -1,152 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="../style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daily Learning</title>
-</head>
-<body>
+  </head>
+  <body>
     <div>
-        <h1 >My Daily Learnings</h1>
+      <h1>My Daily Learnings</h1>
     </div>
     <div>
-        <div class="date-wise-learning">
-            <span class="date">Tuesday, 18th July 2023</span>
-            <hr>
-            <ul>
-                <li>
-                    Grid Layout in CSS
-                    <ul>
-                        <li>How to configure the container</li>
-                        <li>Grid Sizing
-                            <ul>
-                                <li>grid-template
-                                    <ul>
-                                        <li>grid-template-rows</li>
-                                        <li>grid-template-columns</li>
-                                        <li>Understing the use of <b>auto</b></li>
-                                        <li>Understanding minmax(min,max)</li>
-                                        <li>Understanding repeat(2,200px): 2 is the number of times to repeat and 200px is the size</li>
-                                        <li>Understanding the use of <b>grid-auto-rows/columns</b>. This gives a size to any new row/column if created.</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>Grid item placement
-                            <ul>
-                                <li>Common terminologies
-                                    <ul>
-                                        <li>grid-container</li>
-                                        <li>grid-items</li>
-                                        <li>rows</li>
-                                        <li>columns</li>
-                                        <li>rows & columns are collectively known as <b>tracks</b></li>
-                                        <li>grid-cell</li>
-                                        <li>gap</li>
-                                        <li>lines: separate the tracks
-                                            <ul>
-                                                <li>if there are 3 three columns, then the lines will be 0 1 2 3</li>
-                                                <li>similarly, if there are 3 rows, then the lines will be 0 1 2 3</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>span
-                                    <ul>
-                                        <li>grid-column
-                                            <ul>
-                                                <li>grid-column-start</li>
-                                                <li>grid-column-end</li>
-                                            </ul>
-                                        </li>
-                                        <li>same goes for grid-row</li>
-                                        <li>we can also write grid-row: span _start / _end</li>
-                                        <li>also understood the use of <b>order</b></li>
-                                    </ul>
-                                </li>
-                                <li>grid-area: _row start / _column start / _row end / _column end
-                                    <ul>
-                                        <li>grid-column-start</li>
-                                        <li>grid-column-end</li>
-                                        <li>grid-row-start</li>
-                                        <li>grid-row-end</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+      <div class="date-wise-learning">
+        <div class="card-view">
+                <span>18/11/2023</span>
+                <br>
+                <ul class="mylist">
+                    <li>
+                        HTML -> Attributes
+                    </li>
+                </ul>
         </div>
-        <hr>
-        <div class="date-wise-learning">
-            <span class ="date">Wednesday, 17th July 2023</span>
-            <hr>
-            <ul>
-                <li>
-                    CSS: flex | flex-basis | flex-direction | justify-content | align-items | @media | multiple html features
-                    <ul>
-                        <li>I learnt how we can utilize all these features. I followed the tutorial and finally generated the page for different page size</li>
-                    </ul>
-                </li>
-                <li>MSSQL
-                    <ul>
-                        <li>Creating Database: CREATE DATABASE music;</li>
-                        <li>Creating Table: syntax: <br>
-                            CREATE TABLE table_name (<br>
-                                column1 datatype;<br>
-                                column2 datatype;<br>
-                                .................<br>
-                                ................. <br>
-                            )
-                        </li>
-                        <li>Example: Creating a table based on the Primary key and a foreign key<br>
-                            CREATE TABLE album(<br>
-                                _id int NOTNULL,<br>
-                                name TEXT NOTNULL,<br>
-                                artistId id,<br>
-                                PRIMARY KEY(_id),<br>
-                                FOREIGN KEY (artistId) REFERENCES artist(_id)<br>
-                            );
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <hr>
-        <div class="date-wise-learning">
-            <span class="date">Wednesday, 12th July 2023</span>
-            <hr>
-            <ul>
-                <li>
-                    Understanding JDBC
-                    <ul>
-                        <li>Inserting Contents using JDBC</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <hr>
-        <div class="date-wise-learning">
-            <span class="date">Wednesday, 11th July 2023</span>
-            <hr>
-            <ul>
-                <li>
-                    Display properties in CSS: Flex
-                    <ul>
-                        <li>Flex basis</li>
-                        <li>Flex Layout</li>
-                        <li>Justify Content</li>
-                        <li>Align Items</li>
-                        <li>Flex Direction</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+      </div>
     </div>
-    
-    
-</body>
+  </body>
 </html>
